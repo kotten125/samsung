@@ -1,0 +1,611 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.nav-1
+{
+  display: flex;
+  background-color: white;
+  height: 4.01vw;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo
+{
+  width: 125px;
+  height: 35px;
+  margin-right: 3vw;
+  margin-left: 10.5vw;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.rightul
+{
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  margin-left: 6.8vw;
+}
+.leftul
+{
+  display: inline-flex;
+  flex-direction: row;
+  float: left;
+}
+.nav-1 li
+{
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+}
+.lefttext
+{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  width: auto;
+  padding: 0 8px;
+}
+.righttext
+{
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 8px;
+}
+.lefttext:hover{
+  border-radius: 16px;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+}
+.righttext:hover
+{
+  border-radius: 16px;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+}
+.iconul
+{
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+}
+.material-icons
+{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  width: auto;
+  padding: 0 8px;
+  padding-top: 11px;
+}
+/*Slide show*/
+.slideshow-container {
+  display: flex;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  max-height: 650px;
+  margin-left: 13%;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  z-index: -10;
+  transition-delay: 1s;
+}
+
+.slide img {
+  width: 100%;
+}
+.overlay
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  top: 0;
+}
+.inner
+{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%,-65%);
+}
+.galaxy
+{
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+}
+.inbyte
+{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+}
+.köp-nu
+{
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-left: 7px;
+}
+.läs-mer
+{
+  color: black;
+  border: 0;
+  font-size: 13px;
+  font-weight: bold;
+  background: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+.inner2
+{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%,-60%);
+}
+.priser
+{
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+.lys
+{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 50px;
+}
+.upptäck
+{
+  background-color: white;
+  color: black;
+  border: 0;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+  padding-right: 17px;
+  cursor: pointer;
+}
+.inner3
+{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%,-65%);
+}
+.jet
+{
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+}
+.effektiv
+{
+  font-size: 20px;
+  color: black;
+  margin-top: -20px;
+}
+.köpnu
+{
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+/*Erbjudanden*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
+  margin-right: 0%;
+}
+
+.side-image-right {
+  width: auto;
+  height: auto;
+}
+
+.side-image-left {
+  width: auto;
+  height: auto;
+  margin-left: 43%;
+}
+
+.side-image-right img {
+  border-radius: 10%;
+}
+
+.side-image-left img {
+  border-radius: 10%;
+}
+
+.main-image {
+  grid-column: 2 / 3;
+  grid-row: 1 / span 2;
+  width: auto;
+  height: auto;
+}
+
+.main-image img {
+  border-radius: 5%;
+}
+/*galaxy flip*/
+.nav-2 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 3%;
+}
+
+.nav-2 li {
+  float: none;
+}
+
+.nav-2 li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.nav-2 li a:hover {
+  text-decoration: underline;
+}
+
+.aktuella {
+  text-align: center;
+  margin-top: 35%;
+  font-size: 300%;
+}
+.galaxy-fold {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  z-index: -10;
+  transition-delay: 1s;
+}
+.fold5
+{
+  margin-top: 1.5%;
+}
+.innerfold
+{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+}
+.köp-nu-fold
+{
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-left: 7px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.köp-nu-fold:hover
+{
+  background-color: rgb(105, 105, 105);
+}
+.läs-mer-fold
+{
+  color: black;
+  border: 0;
+  font-size: 13px;
+  font-weight: bold;
+  background: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+  margin-left: 25%;
+  margin-bottom: 50%;
+  cursor: pointer;
+}
+.galaxy5
+{
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.mobil
+{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 4%;
+}
+.mobil-nav
+{
+  display: flex;
+  justify-content: center;
+}
+.mobil-nav a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.mobil-nav a:hover
+{
+  text-decoration: underline;
+}
+/*TV & ljud*/
+.tv {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  z-index: -10;
+  transition-delay: 1s;
+  margin-top: 44%;
+}
+.innertv
+{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-85%);
+}
+.köp-nu-tv
+{
+  background-color: white;
+  color: black;
+  border: 0;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.köp-nu-tv:hover
+{
+  background-color: rgb(208, 208, 208);
+}
+.tvljud
+{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+.tvljud2
+{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: white;
+  font-size: 15px;
+}
+.tv-ljud
+{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 2%;
+}
+.tv-nav
+{
+  margin-top: -1%;
+  display: flex;
+  justify-content: center;
+}
+.tv-nav a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+}
+.tv-nav a:hover
+{
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+}
+/*Vitvaror*/
+.vitvaror {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  z-index: -10;
+  transition-delay: 1s;
+  margin-top: 86.5%;
+}
+
+.innervit
+{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-85%);
+}
+.läs-mer-vit
+{
+  background-color: white;
+  color: black;
+  border: 0;
+  border-radius: 35px;
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.läs-mer-vit:hover
+{
+  background-color: rgb(208, 208, 208);
+}
+.hem
+{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+.vitvaror1
+{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 2%;
+}
+.vitvaror-nav
+{
+  margin-top: -1%;
+  display: flex;
+  justify-content: center;
+}
+.vitvaror-nav a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+}
+.vitvaror-nav a:hover
+{
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 30px;
+}
+/*Rekommenderade Produkter*/
+.rp
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  margin-top: 130%;
+}
+.rp-text
+{
+  text-align: center;
+  font-size: 40px;
+}
+.produkter
+{
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+.rp-bakgrund
+{
+  background-color: #f7f7f7;
+  width: 264px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 25px;
+}
+.rp-bild
+{
+  margin-top: 30px;
+}
+.namn
+{
+  font-weight: bold;
+  margin: 0;
+}
+.färg
+{
+  margin-top: 20px;
+}
+.circle
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 23px;
+  height: 23px;
+}
+.köp-nu-rp
+{
+  margin-top: 30%;
+  background-color: black;
+  border: solid black;
+  border-radius: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.köp-nu-rp:hover
+{
+  background-color: gray;
+  border: solid grey;
+}
